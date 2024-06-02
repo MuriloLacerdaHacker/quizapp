@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root {
+    --bg-color: #f4f6fA;
+    --bg-mobile: url(./assents/imagens/pattern-background-mobile-ligth.svg);
+}
+
+body {
+    height: 100svh;
+    background: var(--bg-mobile) var(--bg-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
