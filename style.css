@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    font-family: "Rubik", sans-serif;
+    -webkik-font-smoothing:antialiased;
 }
 
 :root {
     --bg-color: #f4f6fA;
     --purple: #a729f5
+    --primary-text-color: #313e51;
     --white: #ffff
     --bg-mobile: url(./assents/imagens/pattern-background-mobile-ligth.svg);
 
@@ -54,4 +57,10 @@ header {
 
 .main {
     padding: 32px 24px;
+}
+
+.main h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: var( --primary-text-color);
 }
