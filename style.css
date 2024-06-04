@@ -8,9 +8,10 @@
 
 :root {
     --bg-color: #f4f6fA;
-    --purple: #a729f5
+    --purple: #a729f5;
     --primary-text-color: #313e51;
-    --white: #ffff
+    --secundary-text-color: #626c7f
+    --white: #ffff;
     --bg-mobile: url(./assents/imagens/pattern-background-mobile-ligth.svg);
 
 }
@@ -59,8 +60,24 @@ header {
     padding: 32px 24px;
 }
 
-.main h1 {
+.bias_vindas{
+    margin-bottom: 40px;
+}
+
+.boa_vindas h1 {
     font-size: 40px;
     font-weight: 300;
     color: var( --primary-text-color);
+    margin-bottom: 16px;
+}
+
+.boa_vindas h1 strong {
+    font-weight: 500;
+}
+
+.boa_vindas p{
+    color: var(--secundary-text-color);
+    font-size: 14px;
+    line-height: 150%;
+    font-style: italic;
 }
