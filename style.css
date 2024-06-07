@@ -18,7 +18,7 @@
     --bg-acessibilidade: #f6e7ff;
     --white: #fff;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
-
+   
 }
 body {
     height: 100vh;
@@ -75,7 +75,6 @@ main {
     line-height: 150%;
     font-style: italic;
 }
-}
 
 .assuntos {
     border: 1px solid red;
@@ -83,7 +82,6 @@ main {
     flex-direction: column;
     gap: 12px
 }
-
 .assuntos button {
     border: none;
     background: var(--button-bg);
@@ -93,21 +91,31 @@ main {
     padding: 12px;
     border-radius: 12px;
     box-shadow: var(--shadow);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-text-color)
+}
+
+.assuntos button div {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.assuntos button img {
+    width: 100%;
 }
 
 .botao_html div {
     background: var(--bg-html);
 }
-
 .botao_css div {
     background: var(--bg-css);
-
 }
-
 .botao_javascript div {
     background: var(--bg-javascript);
 }
-
 .botao_acessibilidade div {
     background: var(--bg-acessibilidade);
 }
